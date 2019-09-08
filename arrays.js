@@ -7,7 +7,7 @@ return  array.unshift(element);
 }
 
 var addElementToEndOfArray = (array, element) => {
-  return [array...,element];
+  return [element, array...];
 }
 
 var destructivelyAddElementToEndOfArray = (array, element) =>{
