@@ -9,3 +9,7 @@ return  array.unshift(element);
 var addElementToEndOfArray = (array, element) => {
   return [array, ...element];
 }
+
+var destructivelyAddElementToEndOfArray = (array, element) =>{
+  return array.push(element);
+}
