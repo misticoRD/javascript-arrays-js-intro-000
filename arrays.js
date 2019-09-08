@@ -3,7 +3,7 @@ var addElementToBeginningOfArray = (array, element) => {
  return [element, ...array];
 }
 var destructivelyAddElementToBeginningOfArray = function(array, element){
-   array.unshift(element)
+  return array.unshift(element)
 }
 
 var addElementToEndOfArray = (array, element) => {
